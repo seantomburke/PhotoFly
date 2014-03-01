@@ -1,0 +1,212 @@
+html,body,h1,h2,h3,p{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height:100%;
+
+}
+body, input, select, textarea {	
+	font-family: 'Fredoka One', cursive;
+	font-size: 14px;
+	color:#505050;
+}
+
+h1{ 
+	font-size: 40px;
+	letter-spacing: -2px;
+	font-weight: normal;
+	color:#000000;
+	margin-bottom:2px;
+}
+
+h2{ 
+	font-size: 20px;
+	font-weight: normal;
+	color: rgb(136, 136, 136);	
+}
+
+h3{ 
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+p{
+	padding: 0 0 0 4px;
+}
+
+#container {
+	/* 1024px max window */
+	width: 960px;
+	margin: 0 auto;
+	/*border-left: 2px solid #a7a7a7;
+	border-right: 2px solid #a7a7a7;
+	border-bottom: 2px solid #a7a7a7;*/
+	padding: 0 15px 0 15px;
+    text-align: left;
+    background-image: url("../images/page-border.gif");
+    background-repeat:repeat-y;
+}
+
+#header {
+	padding: 0px 20px 0px 0px;
+	text-align: center;
+	/* background-color: #476a1a; */
+	/* border-bottom: 1px solid #000000; */
+	background-image: url("../images/heading-border.gif");
+    background-repeat:no-repeat;
+    background-position:center top;
+}
+
+#content {
+	width: 100%;
+	min-height: 400px;
+	overflow: hidden;
+	/* background-color:red; */
+}
+
+#menu {
+	float: left;
+	width: 150px;
+	padding: 10px 10px 0 10px; 
+	/* background-color:yellow; */
+}
+
+#main {
+	float:left;
+	width:750px;
+	padding: 10px 10px 0 10px; 
+	/* background-color:blue; */
+}
+
+#footer {
+	height: 30px;
+	/* background-color:green; */
+	text-align: center;
+	padding: 10px 0 0 0;
+	vertical-align : middle;
+	color:#B8B8B8;
+}
+
+.sec1 {
+	border: 1px solid #B0B0B0;
+	padding: 20px 0 20px 40px;
+	margin: 10px 0 10px 0;
+}
+
+.sec2 {
+	background-color: #F4F4F4;
+	min-height: 120px;
+	border: 1px solid #B0B0B0;
+	margin: 5px 0 5px 0;
+	padding: 20px;
+}
+
+.sec3 {	
+	background-color: #F4F4F4;
+	border-radius: 5px; 
+	margin: 10px 0 10px 0;
+	padding: 20px;
+}
+
+a:link, a:visited, a:active, a:hover {
+	text-decoration:none; color: #AACCFF;
+	font-family: 'Fredoka One', cursive;
+}
+
+a:link, a:visited, a:active, a:hover {
+	font-weight: bold;
+	text-decoration:none; color: #AACCFF;
+	font-family: 'Fredoka One', cursive;
+}
+
+a:hover {
+	color: #444444;
+}
+
+a img:hover {
+	
+	-moz-box-shadow: inset 0 -5px 3px rgba(0, 0, 0, 0);
+	-webkit-box-shadow: inset 0 -5px 3px rgba(0, 0, 0, 0);
+	-o-box-shadow: inset 0 -5px 3px rgba(0, 0, 0, 0);
+	-webkit-transition: all .15s ease-out;
+	-moz-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
+}
+
+a img{
+
+	position:absolute;
+	//clip:rect(0px,200px,280px,0px);
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+a img:hover{
+	-webkit-transform: scale(1.05) rotate(0deg);
+	-moz-transform: scale(1.05) rotate(0deg);
+	-o-transform: scale(1.05) rotate(0deg);
+	-webkit-transition: all .15s ease-out;
+	-moz-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
+	-moz-box-shadow:2px 5px 2px rgba(0,0,0,.50);
+	-webkit-box-shadow:2px 5px 2px rgba(0,0,0,.50);
+	-o-box-shadow:2px 5px 2px rgba(0,0,0,.50);
+}
+
+
+hr {
+	border-width: 1px 0 0;
+	padding:0;
+	margin:1px 0 15px 0;
+}
+
+.clear {
+	clear: both;
+}
+
+label {
+	float: left;
+	padding: 6px 0 0 0;
+	width: 68px;
+}
+
+input, select, textarea{
+	margin: 2px;
+	padding: 4px;
+	border: 1px solid #656565;
+	background-color: #ffffff;
+}
+
+input:focus, textarea:focus {
+	background-color:#ffffcc;	
+}
+
+.submitbtn, .submitbtn:focus{
+	color:#FFFFFF;
+	background-color:#2b01e1;
+	font-weight: bold;
+}
+
+.imgbdr {
+	border: 1px solid #505050;
+	padding: 4px;
+	margin: 6px 6px 6px 0;
+}
+
+
+.left { float: left;}
+.right { float: right;}
+
+.error {
+	color: red;
+	display: inline;
+}
